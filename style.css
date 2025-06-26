@@ -356,7 +356,17 @@ audio {
 		display:block;
 	}
 }
+.spotify-player {
+    width: 50%;
+    height: 250px;
+    border-radius: 12px;
+  }
 
+  @media (max-width: 600px) {
+    .spotify-player {
+      width: 80%;
+    }
+  }
 .imagemzinhadotexto {
 	width:60px;
 }
